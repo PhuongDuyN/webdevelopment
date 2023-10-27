@@ -1,0 +1,15 @@
+.checklist {
+    list-style: none;
+}
+
+
+.checklist .checked:before {
+    content: url('../../afbeeldingen/Check.png');
+    padding-right: 5px;
+}
+
+.checklist li:before {
+    content: url('../../afbeeldingen/Square-Button.png');
+    padding-right: 5px;
+}
+

@@ -1,0 +1,40 @@
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header h1, header h2 {
+    color: #EDF2F4;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+header, footer, .education {
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+header, footer {
+    background-color: #2B2D42;
+}
+
+.education {
+    background-color: #8D99AE;
+}
+
+header p, footer {
+    color: #8D99AE;
+}
+
+
+a:link, a:visited, a:hover, a:active {
+    color: #EF233C;
+}

@@ -1,0 +1,30 @@
+/* Vormgeving voor het body-element */
+body {
+    font: 1.1em Verdana, sans-serif;
+    background-color: silver;
+    color: darkblue;
+}
+
+
+h1 {
+    font-variant: small-caps;
+    background-color: red;
+}
+
+
+a:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #EF233C;
+    padding: 2px;
+}
+
+
+.stippeltjesrand {
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #333;
+    padding: 5px;
+}
+
+

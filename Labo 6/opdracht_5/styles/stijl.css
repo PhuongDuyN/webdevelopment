@@ -1,0 +1,19 @@
+.icoon {
+    background-image: url("../../afbeeldingen/vives.png");
+    background-size: 45px;
+    padding-left: 35px;
+    background-repeat: no-repeat;
+    background-position:left;
+    text-decoration: none;
+
+
+}
+a:link  {
+    color: red;
+}
+a:visited{
+color: cadetblue;
+}
+a:hover{
+color: red;
+}
