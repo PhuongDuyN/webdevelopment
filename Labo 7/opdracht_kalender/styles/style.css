@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+td.vorige-maand{
+    color: #969393;
+}
+th, td {
+
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+/*Dag hoofding tekstkleur en achtergrondkleur*/
+tr:nth-child(2) th {
+    color: rgb(200, 190, 240);
+    background-color: rgb(35, 37, 70);
+}
+
+/*Maand hoofding achtergrond*/
+th {
+    background-color: rgb(170, 170, 200);
+}
+
+/*Sun 30 -28  en Sat 6 - 3 krijgen roze achtergrond   */
+td:first-child, td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+/* De 16e dag krijgt een specifieke achtergrondkleur */
+td.vrijedag{
+    background-color: rgb(250, 120, 120);
+}
+
+/* Om een vierkante kader te krijgen */
+table {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
