@@ -5,10 +5,12 @@ body {
     font-family: Verdana, Helvetica, Arial, sans-serif;
     font-size: 1.2em;
 }
+
 /*--*/
 header {
     text-align: center;
 }
+
 article h1 {
     color: lightpink;
 
@@ -49,6 +51,7 @@ article.specials {
     text-align: center;
     background: url('../images/cocktail.gif') center top repeat-x;
 }
+
 /*pd*/
 #guarantee {
     background-image: url("../images/background.gif");
@@ -58,6 +61,7 @@ article.specials {
     color: #444444;
     background-color: #a7cece;
     border: 2px dotted black;
+
 }
 
 a {
@@ -68,7 +72,7 @@ a {
 
 footer {
     font-size: 0.6em;
-    margin-top: 60px;
+    margin-top: 150px;
     text-align: center;
     float: right;
     padding-right: 60px;
@@ -77,6 +81,7 @@ footer {
 .specials {
     padding: 20px;
 }
+
 /*--*/
 .specials a:hover {
     background-color: brown;
