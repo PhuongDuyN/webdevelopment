@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.kolom {
+    width: calc(50% - 20px);
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border: 1px solid #2B2D42;
+    box-sizing: border-box;
+
+}
+
