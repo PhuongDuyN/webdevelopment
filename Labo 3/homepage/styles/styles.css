@@ -1,4 +1,4 @@
-/* styles.css */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -56,7 +56,7 @@ table img {
     max-width: 100%;
     height: auto;
 }
-/* Voeg deze regel toe aan het einde van je 'styles.css' */
+
 
 section h2 {
     border: 2px solid #3498db;
