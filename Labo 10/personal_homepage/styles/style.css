@@ -1,0 +1,122 @@
+body {
+    background-image: url("../images/Trackhawk.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: rgba(34, 34, 34, 0.473);
+}
+
+section {
+    margin: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+
+table {
+    width: 100%;
+
+}
+
+table img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+table {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#likes {
+    padding: 20px;
+}
+
+#likes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#likes li {
+    margin-bottom: 20px;
+}
+
+
+section h2 {
+    border: 2px solid #3498db;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+section figcaption {
+    color: white;
+}
+
+section li {
+    color: white;
+}
+
+
+.border {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: lightgrey;
+    border-radius: 5px;
+
+}
+
+.border th, .border td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.border th {
+    background-color: #f2f2f2;
+}
+
+
+
+
