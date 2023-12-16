@@ -36,7 +36,6 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-evenly;
 
 
 }
@@ -70,7 +69,6 @@ body {
   inline-size: 100%;
   padding: 2em;
 /* zorg dat de statistische gegevens horizontaal komen */
-
   display: flex;
   justify-content: space-evenly;
 
