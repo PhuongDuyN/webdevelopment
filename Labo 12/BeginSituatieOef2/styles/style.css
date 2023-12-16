@@ -1,0 +1,119 @@
+html {
+    background-color: #333;
+    font-family: helvetica, sans-serif;
+}
+
+* {
+    padding: 10px;
+
+}
+
+body {
+    font-size: 1em;
+    margin: 5px;
+    border: solid 5px white;
+    background-color: white;
+}
+
+header, footer {
+    text-align: center;
+    background: #ddaa00;
+    color: white;
+}
+
+
+nav {
+    background-color: #ccc;
+    padding: 5px 2px;
+    color: #ddaa00;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    text-align: center;
+    margin: 0 5px;
+    width: 20%;
+    border: solid 1px black;
+    background-color: white;
+    color: #ddaa00;
+
+}
+
+main {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+}
+
+
+main a {
+    display: flex;
+    color: grey;
+    justify-content: center;
+}
+
+section {
+    border: solid 1px #333;
+    margin: 5px;
+    background-color: white;
+    flex-direction: column;
+    width: 100%;
+}
+
+section a {
+    border: solid 1px grey;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+section p {
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+footer {
+    border-top: solid 10px black;
+}
+
+@media screen and (max-width: 700px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav a {
+        width: auto;
+        margin: 5px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section a {
+        margin: 5px;
+    }
+
+
+    section {
+        box-sizing: border-box;
+        margin: 5px;
+    }
+
+
+}
+
+
+
+

@@ -14,7 +14,7 @@ main {
 }
 
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 772px) {
     .block1 {
         background-color: #444444;
         grid-row: 2/3;
