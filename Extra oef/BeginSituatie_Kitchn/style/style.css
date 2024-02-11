@@ -1,0 +1,138 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+header{
+    text-align: center;
+    border-bottom: 1px solid #ebe8e8 ;
+}
+header img{
+    height: 50px;
+    display: block;
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav span a{
+    text-decoration: none;
+    color:grey ;
+    text-transform: uppercase;
+}
+
+main header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/headerimage.jpg");
+    height: 500px;
+    background-size: cover;
+}
+
+main header h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px #8D99AE;
+}
+
+
+section h1{
+    border-bottom: 3px solid black;
+}
+
+article span {
+    color: red;
+    text-transform: uppercase;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#recipe{
+    margin-top: 50px;
+    width: 980px;
+}
+#recipe article{
+    border-top: 1px solid #dddddd;
+    padding-top: 15px;
+}
+#recipe img {
+    display: block;
+    margin: 0 0 15px 20px;
+    width: 100%;
+
+}
+
+.pictures img{
+    margin-bottom: 25px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ebe8e8;
+    padding: 20px;
+}
+
+#left, #right {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-right:5px ;
+}
+
+#left {
+    text-align: right;
+}
+
+#right {
+    text-align: left;
+    background-color: black;
+    color: #dddddd;
+
+}
+
+#left,
+#right {
+    line-height: 2em;
+}
+
+
+/* Media queries voor verschillende viewportbreedtes */
+@media (max-width: 769px) {
+    #recipe {
+        width: 600px; /* Op klein scherm (tot 769px breed) is het blok 600px breed */
+        margin-left: auto; /* Zorgt voor centrering op klein scherm */
+        margin-right: auto; /* Zorgt voor centrering op klein scherm */
+    }
+
+    .grid {
+        grid-template-columns: 1fr; /* Op klein scherm één kolom in plaats van twee */
+    }
+}
+
+@media (min-width: 770px) and (max-width: 999px) {
+    #recipe {
+        width: 750px; /* Vanaf 770px tot 999px breed is het blok 750px breed */
+    }
+}
+
+@media (min-width: 1000px) {
+    #recipe {
+        width: 980px; /* Vanaf 1000px breed is het blok 980px breed */
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr; /* Terug naar twee kolommen op grotere schermen */
+    }
+}
+
